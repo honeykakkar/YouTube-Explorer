@@ -108,37 +108,37 @@ Statistics include: {
 
 •	getVideoDetails - Method to collect the statistical information of a video. Statistical information includes:
 
-  o	Likes
+      o	Likes
   
-  o	Dislikes
+      o	Dislikes
   
-  o	View Count
+      o     View Count
   
-  o	Comment Count
+      o	Comment Count
 
 •	getVideoContents - Method to collect the content-details object associated with a video ID. ContentDetails of a video includes:
 
-  o	"duration"
+      o	"duration"
   
-  o	"dimension"
+      o	"dimension"
   
-  o	"definition"
+      o	"definition"
   
-  o	"caption"
+      o	"caption"
 
 •	getVideoSnippet - Method to collect the snippet object associated with a video ID. Snippet of a video includes:
 
-  o	"publishedAt"
+      o	"publishedAt"
   
-  o	"channelId"
+      o	"channelId"
   
-  o	"title"
+      o	"title"
   
-  o	"description"
+      o	"description"
   
-  o	"channelTitle"
+      o	"channelTitle"
   
-  o	"categoryId"
+      o	"categoryId"
 
 •	establishConnection - Method to establish a connection to a MySQL database
 
@@ -154,13 +154,13 @@ This class contains following methods:
 
 •	getVideoDetails - Method to collect the statistical information of a given video. Statistical information includes:
 
-  o	Likes
+      o	Likes
   
-  o	Dislikes
+      o	Dislikes
   
-  o	View Count
+      o	View Count
   
-  o	Comment Count
+      o	Comment Count
 
 •	collectAllComments - Method to collect the maximum number of top level comments of a given YouTube video ID. This method collects the comments in the order of the "relevance"
 
